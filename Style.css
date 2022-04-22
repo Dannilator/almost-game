@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: rgb(20, 25, 45);
+  cursor: crosshair;
+}
+
+#fps {
+  color: aliceblue;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+#menu {
+  color: aliceblue;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  margin-left: 10px;
+  margin-top: 200px;
+  font-size: larger;
+}
+
+#action {
+  z-index: 0;
+  position: absolute;
+}
+
+#interface {
+  z-index: 1;
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+indexUnit - индекс юнита в массиве юнитов (в случае с минами это массив индексов, так как взрыв задевает несколько объектов одновременно)
+unitKilled = [0 - ничего не рпоизошло, 1 - противоположный юнит уничтожается, -1 - частный случай, активируется задетая мина]
+thisKilled = [0 - ничего не произошло, 1 - текущий юнит уничтожен]
+playerDamaged = [0 - ничего не произошло, 1 - игрок ранен, -1 - частный случай, рассматриваемая мина активируется]
+isDivide = [0 - ничего не произошло, 1 - текущий юнит разделяется]
+
+option = [indexUnit, unitKilled, thisKilled, playerDamaged, isDivide]
+
+
+optionDamByTower = [indexUnit, unitKilled, playerDamaged, {indexUnit_x, unitKilled_x, playerDamaged_x}]
